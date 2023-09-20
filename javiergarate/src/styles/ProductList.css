@@ -1,0 +1,18 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Centramos el contenido de las cards */
+  .card-content {
+    text-align: center;
+  }
+  
+  /* Ajustamos el tamaño de las letras del nombre de los productos */
+  .title {
+    font-size: 1.2rem;
+  }
+  
